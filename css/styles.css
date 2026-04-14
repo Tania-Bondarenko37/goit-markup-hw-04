@@ -335,7 +335,7 @@ ul, ol {
 
 .team-list-sm-icon {
     background-color: #4d5ae5;
-    border-radius: 50px;
+    border-radius: 50%;
     fill: #F4F4FD;
     width: 40px;
     height: 40px;
@@ -530,7 +530,7 @@ ul, ol {
 
 .footer-list-sm-icon {
     background-color: #4d5ae5;
-    border-radius: 50px;
+    border-radius: 50%;
     fill: #F4F4FD;
     width: 40px;
     height: 40px;
