@@ -258,7 +258,14 @@ ul, ol {
     background: #f4f4fd;
     margin-bottom: 8px;
 
-    padding: 24px 100px;
+    position: relative;
+}
+
+.features-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .features-list-title {
@@ -326,7 +333,7 @@ ul, ol {
     gap: 24px;
 }
 
-.team-list-icon {
+.team-list-sm-icon {
     background-color: #4d5ae5;
     border-radius: 50px;
     fill: #F4F4FD;
@@ -335,10 +342,18 @@ ul, ol {
     display: block;
     padding: 12px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
 }
 
-.team-list-icon:hover,
-.team-list-icon:focus {
+.team-sm-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.team-list-sm-icon:hover,
+.team-list-sm-icon:focus {
     background-color: #404bbf;
 }
 
@@ -359,7 +374,6 @@ ul, ol {
     text-align: center;
     color: #434455;
 }
-
 
 
 
@@ -431,7 +445,7 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    padding: 40px 32px 0 32px;
+    padding: 40px 32px;
 
     position: absolute;
     top: 0;
@@ -468,6 +482,7 @@ ul, ol {
 
 .footer-container {
     display: flex;
+    align-items: baseline
 }
 
 .footer-logo {
@@ -513,7 +528,7 @@ ul, ol {
     gap: 16px;
 }
 
-.footer-list-icon {
+.footer-list-sm-icon {
     background-color: #4d5ae5;
     border-radius: 50px;
     fill: #F4F4FD;
@@ -522,10 +537,19 @@ ul, ol {
     display: block;
     padding: 8px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
 }
 
-.footer-list-icon:hover,
-.footer-list-icon:focus {
+.footer-sm-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-list-sm-icon:hover,
+.footer-list-sm-icon:focus {
     background-color: #31d0aa;
 }
+
 
